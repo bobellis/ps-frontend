@@ -1,0 +1,12 @@
+{
+  "name": "ps-frontend",
+  "description": "front end for my personal site",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobellis/ps-frontend"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
