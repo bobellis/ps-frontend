@@ -2,7 +2,14 @@ html {
     background-color: #000320;
 }
 
-.glow {
+.about {
+    color: white;
+    font-family: helvetica; 
+}
+
+.intro {
+    margin: 20%;
+    z-index: 1;
 
 }
 
@@ -26,6 +33,7 @@ html {
     to { -webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg);}
 }
 #galaxy {
+    z-index: 0;
     padding-top: 35%;
     -webkit-animation: myOrbit 10s linear infinite;
     -moz-animation: myOrbit 10s linear infinite;
