@@ -4,7 +4,7 @@ html {
 
 .about {
     color: white;
-    font-family: helvetica; 
+    font-family: helvetica;
 }
 
 .intro {
@@ -34,7 +34,7 @@ html {
 }
 #galaxy {
     z-index: 0;
-    padding-top: 35%;
+    padding-top: 10%;
     -webkit-animation: myOrbit 10s linear infinite;
     -moz-animation: myOrbit 10s linear infinite;
     -o-animation: myOrbit 10s linear infinite;
