@@ -5,7 +5,7 @@ var app = express();
 
 var port = process.env.PORT || 8080;
 
-var staticPath = path.resolve(__dirname, 'app/views');
+var staticPath = path.resolve(__dirname, 'app');
 app.use(express.static(staticPath));
 
 app.get('/', function(req, res){
