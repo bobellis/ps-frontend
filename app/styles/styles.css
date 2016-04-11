@@ -4,7 +4,7 @@ body {
 
 .about {
     color: white;
-    font-family: helvetica;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .intro {
@@ -12,9 +12,16 @@ body {
     z-index: 1;
 }
 
-li {
+.li-left {
     float: left;
 }
+
+.li-right {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    color: black; 
+}
+
 
 ul {
     list-style-type: none;
