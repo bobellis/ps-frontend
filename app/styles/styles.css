@@ -1,9 +1,9 @@
 body {
-    background-color: #000320;
+    background-color: white;
 }
 
 .about {
-    color: white;
+    color: #000320;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -14,12 +14,13 @@ body {
 
 .li-left {
     float: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #000320;
 }
 
 .li-right {
     float: right;
-    font-family: 'Open Sans', sans-serif;
-    color: black; 
+
 }
 
 
@@ -33,7 +34,7 @@ ul {
 
 li a {
     display: block;
-    color: white;
+    color: #000320;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -79,10 +80,10 @@ li a {
     bottom: 50%;
     width: 1rem;
     height: 1rem;
-    background-color: white;
-    opacity: .5;
+    background-color: #000320;
+    opacity: .10;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px 10px white;
+    box-shadow: 0px 0px 20px 10px #000320;
 }
 
 #star_2 {
@@ -97,10 +98,10 @@ li a {
     bottom: 50%;
     width: .75rem;
     height: .75rem;
-    background-color: white;
-    opacity: .5;
+    background-color: #000320;
+    opacity: .10;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px 10px white;
+    box-shadow: 0px 0px 20px 10px #000320;
 }
 
 #star_3 {
@@ -115,8 +116,8 @@ li a {
     bottom: 50%;
     width: 2rem;
     height: 2rem;
-    background-color: white;
-    opacity: .5;
+    background-color: #000320;
+    opacity: .10;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px 10px white;
+    box-shadow: 0px 0px 20px 10px #000320;
 }
