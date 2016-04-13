@@ -2,13 +2,32 @@ body {
     background-color: white;
 }
 
-.about {
+#about_me {
     color: #000320;
     font-family: 'Open Sans', sans-serif;
 }
 
+#nav {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999aa5;
+    z-index: 1;
+}
+
+.my_link {
+    display: block;
+    color: #000320;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 .intro {
-    margin: 20%;
+    padding-top: 20%
     z-index: 1;
 }
 
@@ -25,19 +44,7 @@ body {
 
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #999aa5;
-}
 
-li a {
-    display: block;
-    color: #000320;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
 @-webkit-keyframes myOrbit {
