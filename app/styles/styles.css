@@ -1,3 +1,7 @@
+html {
+    font-size: 100%;
+}
+
 body {
     background-color: white;
 }
@@ -7,8 +11,8 @@ body {
     position: relative;
     width: 100%;
     list-style-type: none;
-    margin: auto;
     background-color: #999aa5;
+    margin: 0;
     z-index: 0;
 }
 
@@ -16,7 +20,7 @@ body {
     display: block;
     color: #000320;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1rem;
     text-decoration: none;
 }
 
@@ -28,13 +32,13 @@ body {
 
 .li-left {
     float: left;
+    font-size: 1.25rem;
     font-family: 'Open Sans', sans-serif;
     color: #000320;
 }
 
 .li-right {
     float: right;
-
 }
 
 @-webkit-keyframes myOrbit {
@@ -67,7 +71,8 @@ body {
     display: none;
     color: #000320;
     font-family: 'Open Sans', sans-serif;
-    z-index: 1; 
+    margin: 10%;
+    z-index: 1;
 }
 
 
