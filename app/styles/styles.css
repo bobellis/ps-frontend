@@ -37,9 +37,6 @@
         .dropdown-content a:hover {
             background-color: #999aa5;
         }
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
     }
     /*mobile landscape*/
 
