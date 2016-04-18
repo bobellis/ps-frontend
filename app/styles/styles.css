@@ -3,7 +3,7 @@
     }
     /*mobile portrait*/
 
-    @media only screen and (max-device-width: 320px) {
+    @media only screen and (max-device-width: 1024px) {
         .menu-button {
             background-color: #999aa5;
             color: white;
