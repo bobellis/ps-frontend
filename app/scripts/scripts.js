@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    $('#about_me_link').click(function(event){
-        $('#projects').hide("drop", { direction: "down"}, "fast");
-        $('#about_me').show("drop", { direction: "up"}, "slow");
+    $('#about-me-link').click(function(event){
+        $('#projects').hide("fade", "fast");
+        $('#about-me').show("fade", "fast");
     });
 
-    $('#projects_link').click(function(event){
-        $('#projects').show("drop", { direction: "down"}, "slow");
-        $('#about_me').hide("drop", { direction: "up"}, "fast");
+    $('#projects-link').click(function(event){
+        $('#projects').show("fade", "fast");
+        $('#about-me').hide("fade", "fast");
     });
 
 

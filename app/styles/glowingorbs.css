@@ -1,0 +1,92 @@
+@-webkit-keyframes myOrbit {
+    from {
+        -webkit-transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+}
+
+@-moz-keyframes myOrbit {
+    from {
+        -webkit-transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+}
+
+@-o-keyframes myOrbit {
+    from {
+        -webkit-transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+}
+
+@keyframes myOrbit {
+    from {
+        -webkit-transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+}
+
+#galaxy {
+    display: inline-block;
+    top: 30em;
+    padding: 10rem;
+    margin: 10rem;
+    z-index: 0;
+    -webkit-animation: myOrbit 10s linear infinite;
+    -moz-animation: myOrbit 10s linear infinite;
+    -o-animation: myOrbit 10s linear infinite;
+    animation: myOrbit 10s linear infinite;
+}
+
+#star-1 {
+    -webkit-animation: myOrbit 6s linear infinite;
+    -moz-animation: myOrbit 6s linear infinite;
+    -o-animation: myOrbit 6s linear infinite;
+    animation: myOrbit 6s linear infinite;
+    position: relative;
+    margin: auto;
+    width: 1rem;
+    height: 1rem;
+    background-color: #000320;
+    opacity: 0.10;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px #000320;
+}
+
+#star-2 {
+    -webkit-animation: myOrbit 4s linear infinite;
+    -moz-animation: myOrbit 4s linear infinite;
+    -o-animation: myOrbit 4s linear infinite;
+    animation: myOrbit 4s linear infinite;
+    position: relative;
+    margin: auto;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #000320;
+    opacity: 0.10;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px #000320;
+}
+
+#star-3 {
+    -webkit-animation: myOrbit 7s linear infinite;
+    -moz-animation: myOrbit 7s linear infinite;
+    -o-animation: myOrbit 7s linear infinite;
+    animation: myOrbit 7s linear infinite;
+    position: relative;
+    margin: auto;
+    width: 2rem;
+    height: 2rem;
+    background-color: #000320;
+    opacity: 0.10;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px #000320;
+}
